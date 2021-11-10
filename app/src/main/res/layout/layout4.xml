@@ -11,10 +11,14 @@
     android:paddingRight="10dp"
     android:paddingTop="10dp"
     tools:context=".MainActivity" >
-    <EditText
-        android:id="@+id/et_1"
+    <TextView
+        android:id="@+id/tv_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="20sp"
-        android:text="" />
+        android:text="Sóc un Button"/>
+    <Button
+        android:id="@+id/btn_1"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Clica'm"/>
 </LinearLayout>

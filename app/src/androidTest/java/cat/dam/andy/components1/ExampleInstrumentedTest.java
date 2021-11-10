@@ -1,4 +1,4 @@
-package cat.dam.andy.botons_seleccio_layouts;
+package cat.dam.andy.components1;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("cat.dam.andy.botons_seleccio_layouts", appContext.getPackageName());
+        assertEquals("cat.dam.andy.components1", appContext.getPackageName());
     }
 }

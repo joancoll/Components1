@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="cat.dam.andy.botons_seleccio_layouts">
+    package="cat.dam.andy.components1">
 
     <application
         android:allowBackup="true"
@@ -8,9 +8,9 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Botons_Seleccio_Layouts">
+        android:theme="@style/Theme.Components1">
         <activity
-            android:name=".MainActivity"
+            android:name="cat.dam.andy.components1.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

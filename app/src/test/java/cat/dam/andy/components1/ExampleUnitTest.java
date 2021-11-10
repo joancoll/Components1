@@ -1,4 +1,4 @@
-package cat.dam.andy.botons_seleccio_layouts;
+package cat.dam.andy.components1;
 
 import org.junit.Test;
 
