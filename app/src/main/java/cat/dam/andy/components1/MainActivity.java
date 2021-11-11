@@ -45,8 +45,11 @@ public class MainActivity extends AppCompatActivity {
     protected void controller3() {
         //AutocompleteTextView
         String[] fruites = new String[]{
-                "Poma", "Taronja", "Pera", "Kiwi", "Mango",
-                "Maduixa", "Raïm", "Mandarina", "Plàtan", "Albaricoc"
+                "Poma", "Taronja", "Pera", "Maduixa", "Raïm",
+                "Mandarina", "Plàtan", "Albercoc", "Alvocat", "Caqui",
+                "Cirera","Coco","Dàtil","Figa","Guaiaba","Kiwi","Litxi",
+                "Llimona","Magrana", "Mango","Meló","Nespra","Papaia", "Pinya",
+                "Prèssec", "Pruna","Raïm", "Síndria", "Xirimoia"
         };
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
                 android.R.layout.simple_dropdown_item_1line, fruites);
